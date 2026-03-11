@@ -8,7 +8,7 @@ A clean, from-scratch PyTorch reimplementation of **EEGNet** (Lawhern et al., 20
 
 EEGNet is a compact, generalizable CNN designed specifically for EEG signal classification. It uses depthwise and separable convolutions to learn both temporal and spatial EEG features with very few parameters (~1,972 for the 2-second epoch configuration).
 
-This project reimplements the full pipeline from scratch:
+This project reimplements the full pipeline of EEGNet from scratch:
 - Paper-accurate architecture with weight constraints and correct regularization
 - Full preprocessing pipeline using MNE (bandpass filtering, resampling, epoching, normalization)
 - Subject-dependent training and evaluation following the paper's protocol

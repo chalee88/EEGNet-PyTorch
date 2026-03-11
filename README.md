@@ -142,6 +142,7 @@ python scripts/train.py
 - **Per-trial normalization**: Z-score normalization per trial per channel is critical for cross-session generalization — without it, test accuracy collapses to ~25% (chance)
 - **Early stopping**: Training stops when test accuracy shows no improvement for 50 epochs; best accuracy is reported
 
+
 ---
 
 ## References

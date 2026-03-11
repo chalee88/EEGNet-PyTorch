@@ -109,7 +109,6 @@ EEGNet/
 ├── training/
 │   └── trainer.py       # Training loop with early stopping
 ├── utils/
-│   ├── augmentation.py  # Data augmentation utilities
 │   └── plot_results.py  # Accuracy and loss visualizations
 ```
 
